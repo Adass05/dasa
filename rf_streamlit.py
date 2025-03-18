@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # Load the machine learning model
-model = joblib.load('1RF_class.pkl')
+model = joblib.load('2RF_class.pkl')
 
 def main():
     st.title('Machine Learning Model Deployment')
